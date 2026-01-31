@@ -26,6 +26,10 @@
     - [2.3 Quality \& Analysis](#23-quality--analysis)
       - [2.3.1 System Modeling \& Design Documents](#231-system-modeling--design-documents)
       - [2.3.2 Non-Functional Requirements (NFRs) \& Resiliency](#232-non-functional-requirements-nfrs--resiliency)
+    - [2.4 The "Day 2" Operations (Monitoring, Scaling \& Maintenance)](#24-the-day-2-operations-monitoring-scaling--maintenance)
+      - [2.4.1 Monitoring \& Alerting](#241-monitoring--alerting)
+      - [2.4.2 Scaling Strategies](#242-scaling-strategies)
+      - [2.4.3 Maintenance \& Upgrades](#243-maintenance--upgrades)
   - [Phase 3: Strategic Architect](#phase-3-strategic-architect)
     - [3.1 Enterprise Strategy](#31-enterprise-strategy)
       - [3.1.1 Enterprise Architecture](#311-enterprise-architecture)
@@ -143,6 +147,22 @@ Learn to design, integrate, and deploy complex systems.
   * **Practical Output**:
     * Design a fault-tolerant service integration that uses a Circuit Breaker and retry logic. Simulate a downstream failure and observe the system's behavior.
     * Instrument a simple microservice application to emit metrics and distributed traces. Use the traces to visualize a request flow across services.
+
+### 2.4 The "Day 2" Operations (Monitoring, Scaling & Maintenance)
+**Duration**: 4 weeks
+**Learning Objective**: Ensure systems remain healthy, performant, and cost-effective post-deployment.
+
+#### 2.4.1 Monitoring & Alerting
+  * **Core Concepts**: Setting up monitoring with Prometheus/Grafana, defining meaningful alerts (avoid alert fatigue), and using SLOs to drive alerting strategies.
+  * **Practical Output**: Implement monitoring for your deployed application. Create dashboards and set up alerts based on defined SLOs.
+
+#### 2.4.2 Scaling Strategies
+  * **Core Concepts**: Horizontal vs. vertical scaling, auto-scaling policies, load testing (using tools like Locust or JMeter), and capacity planning.
+  * **Practical Output**: Design and implement an auto-scaling policy for your application based on CPU/memory usage. Conduct load testing to validate scaling behavior.
+
+#### 2.4.3 Maintenance & Upgrades
+  * **Core Concepts**: Blue-Green and Canary deployments, database migration strategies, handling technical debt, and refactoring plans.
+  * **Practical Output**: Plan and execute a blue-green deployment for a new version of your application. Document a database schema migration strategy that minimizes downtime
 
 ---
 
