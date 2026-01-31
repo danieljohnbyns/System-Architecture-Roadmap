@@ -60,7 +60,7 @@ Build the bedrock of technical knowledge to understand how systems work.
 
 #### 1.1.2 Data Structures & Algorithms
   * **Core Concepts**: Analysis of time/space complexity; mastery of trees, graphs, hash tables, and their real-world application in system design (e.g., indexes, routing).
-  * **Practical Output**: Solve 75+ LeetCode problems (focus: Medium). Implement a feature that requires a non-trivial data structure (e.g., LRU cache, trie for autocomplete).
+  * **Practical Output**: Solve 25+ LeetCode problems (focus: Medium). Implement a feature that requires a non-trivial data structure (e.g., LRU cache, trie for autocomplete).
 
 #### 1.1.3 Development Tool Proficiency
   * **Core Concepts**: Advanced Git (rebasing, bisecting); Linux command-line mastery; scripting for automation (Bash/Python).
